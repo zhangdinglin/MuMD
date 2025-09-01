@@ -7,14 +7,6 @@ Dynamic Pathway Prediction: Captures assembly order and intermediate steps, espe
 Multi-level Merging: Simulates competitive binding by iteratively docking pairs (single chains or subcomplexes) while preserving near-native conformations.
 Tested on 23 complexes, MuMD achieved accurate structure and pathway predictions (e.g., Ribonucleotide reductase, TRAIL-SDR5). Ideal for studying protein interactions where temporal assembly matters.
 
-脚本运行前 请根据自己的情况设置好脚本中的路径变量
-
-首先准备测试数据，   详细请参考脚本 prepare_data.sh
-
-然后针对上面准备好的数据进行组装，  详细请参考脚本  dock_complex_merge.sh
-
-如果针对一个体系要重复运行多次，请参考脚本  dock_complex_merge_N.sh
-
 
 
 MuMD Script Usage Guide  
