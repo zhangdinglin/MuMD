@@ -69,10 +69,7 @@ Key Notes
 - Parameters: Tweak `topN` and decoy numbers in scripts for speed/accuracy trade-offs.  
 - Visualization: Use tools like PyMOL to compare predicted vs. experimental structures.  
  
-For questions, see the [GitHub repo](https://github.com/your-repo).  
+
  
----  
-Word count: ~300. Adjust paths/parameters as needed for your setup. Combines brevity with actionable steps.
+ 
 
-
-以上内容均由AI搜集总结并生成，仅供参考
