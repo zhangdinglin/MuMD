@@ -1,9 +1,12 @@
 #这个文件夹下的pdb是为了重复 之前的combdock 和multi_lzd 
 #只做对接不做原子补全，
 
+MYDIR="/home/zhangdinglin/zdl_bin/MuMD_project_test"
+MYdata="/home/zhangdinglin/zdl_bin/MuMD_project_test/data_test/1a0r"
 
+cd ${MYdata}
 #第二步: 组装
-#call method : sh ${MYDIR}/dock_complex_merge.sh ABC N
+#call method : sh ${MYDIR}/dock_complex_merge.sh BGP N
 #文件夹必须重新建立才可以，因为ABCDE  是兼并的， 可能是 AB_CDE   也可能是ABC_DE...
 
 echo "">tmp_f_all
@@ -11,7 +14,7 @@ echo "">seed_str_all
 mkdir  submov  #保存中间产生的subcomplex
 chains=$1
 Lc=${#chains}
-N=$2
+N=$2      #保留topN个构象 参与构象选择的轮盘赌
 #迭代看链条数，每次减少一个   #zdock 文件夹 完成对接。 第一个种子就默认是第一个chain
 #cd $1;
 
