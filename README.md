@@ -34,7 +34,8 @@ Purpose: Predicts the assembly pathway and structure for a single complex.
 Steps:  
 - Execute:  
   ```bash
-  sh ${MYDIR}/dock_complex_merge.sh ABC N 
+  cd MuMD_project_test/data_test/1a0r
+  sh ${MYDIR}/dock_complex_merge.sh BGP  3 
   ```  
 Output:  
 - Final assembled structure (PDB).  
