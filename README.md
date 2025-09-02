@@ -34,6 +34,7 @@ Purpose: Predicts the assembly pathway and structure for a single complex.
 Steps:  
 - Execute:  
   ```bash
+  for example
   cd MuMD_project_test/data_test/1a0r
   sh ${MYDIR}/dock_complex_merge.sh BGP  3 
   ```  
